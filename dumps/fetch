@@ -1,0 +1,22 @@
+0024git-upload-pack /test.git.host=.00f2e18129a8b42a34830269c041ad32decef9e4afe0 HEAD.multi_ack thin-pack side-band side-band-64k ofs-delta shallow deepen-since deepen-not deepen-relative no-progress include-tag multi_ack_detailed symref=HEAD:refs/heads/master agent=git/2.12.2
+003fe18129a8b42a34830269c041ad32decef9e4afe0 refs/heads/master
+00000090want e18129a8b42a34830269c041ad32decef9e4afe0 multi_ack_detailed side-band-64k thin-pack ofs-delta deepen-since deepen-not agent=git/2.12.2
+0032want e18129a8b42a34830269c041ad32decef9e4afe0
+00000009done
+0008NAK
+0020.Counting objects: 3, done.
+002b.Total 3 (delta 0), reused 0 (delta 0)
+00d4.PACK.........
+x...Q
+. ...wO..`$Z..Qv...MXV...[....>.GW..T...L..J.....+I$.Z.5...c.....v..3.....2n..l.xLPR.P.. ...Z.C.~......B0...x.340031QH..I.+.(a8.h......J..a....Y<......K6x..H.......K..~9'..[_...p..l.....0006..00000024git-upload-pack /test.git.host=.00f2e18129a8b42a34830269c041ad32decef9e4afe0 HEAD.multi_ack thin-pack side-band side-band-64k ofs-delta shallow deepen-since deepen-not deepen-relative no-progress include-tag multi_ack_detailed symref=HEAD:refs/heads/master agent=git/2.12.2
+003fe18129a8b42a34830269c041ad32decef9e4afe0 refs/heads/master
+00000090want e18129a8b42a34830269c041ad32decef9e4afe0 multi_ack_detailed side-band-64k thin-pack ofs-delta deepen-since deepen-not agent=git/2.12.2
+0032want e18129a8b42a34830269c041ad32decef9e4afe0
+00000009done
+0008NAK
+0020.Counting objects: 3, done.
+002b.Total 3 (delta 0), reused 0 (delta 0)
+00d4.PACK.........
+x...Q
+. ...wO..`$Z..Qv...MXV...[....>.GW..T...L..J.....+I$.Z.5...c.....v..3.....2n..l.xLPR.P.. ...Z.C.~......B0...x.340031QH..I.+.(a8.h......J..a....Y<......
+K6x..H.......K..~9'..[_...p..l.....0006..0000

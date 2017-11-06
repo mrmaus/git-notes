@@ -1,0 +1,14 @@
+0025git-receive-pack /test.git.host=.008fe18129a8b42a34830269c041ad32decef9e4afe0 refs/heads/master.report-status delete-refs side-band-64k quiet atomic ofs-delta agent=git/2.12.2
+00000095e18129a8b42a34830269c041ad32decef9e4afe0 c722ecc984822cc0fc583006363aeae3d30b93f3 refs/heads/master. report-status side-band-64k agent=git/2.12.20000PACK.........x...A
+. .@...p_(3..
+%.*.3....c....]}x.GW..>Qv!...p.....rj.'9a.)..w].U.H.c...G..R..,.D.......c..ny..........l...ek..	.Dx.h/@...m.C....e[.|...?...x.340031QH..I.+.(aX.d1m..K......v.jL......R=x..H...W(./.IQ...#...p;..<.....t,S...{M.=0030.000eunpack ok
+0019ok refs/heads/master
+000000000025git-receive-pack /test.git.host=.008fe18129a8b42a34830269c041ad32decef9e4afe0 refs/heads/master.report-status delete-refs side-band-64k quiet atomic ofs-delta agent=git/2.12.2
+00000095e18129a8b42a34830269c041ad32decef9e4afe0 c722ecc984822cc0fc583006363aeae3d30b93f3 refs/heads/master. report-status side-band-64k agent=git/2.12.20000PACK.........
+x...A
+. .@...p_(3..
+%.*.3....c....]}x.GW..>Qv!...p.....rj.'9a.)..w].U.H.c...G..R..,.D.......c..ny..........l...ek..	.Dx.h/@...m.C....e[.|...?...x.340031QH..I.+.(aX.d1m..K......v.
+jL......
+R=x..H...W(./.IQ...#...p;..<.....t,S...{M.=0030.000eunpack ok
+0019ok refs/heads/master
+00000000
