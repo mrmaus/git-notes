@@ -1,0 +1,279 @@
+GET /scm/test/two.git/info/refs?service=git-receive-pack HTTP/1.1
+Host: 127.0.0.1:7990
+User-Agent: git/2.12.2
+Accept: */*
+Accept-Encoding: gzip
+Pragma: no-cache
+
+HTTP/1.1 401 Unauthorized
+Server: Apache-Coyote/1.1
+X-AREQUESTID: @TP9NI8x1168x273x0
+X-ASEN: SEN-L10664071
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+WWW-Authenticate: Basic realm="Atlassian Bitbucket"
+Transfer-Encoding: chunked
+Date: Tue, 14 Nov 2017 19:28:20 GMT
+
+0
+
+GET /scm/test/two.git/info/refs?service=git-receive-pack HTTP/1.1
+Host: 127.0.0.1:7990
+Authorization: Basic YWRtaW46
+User-Agent: git/2.12.2
+Accept: */*
+Accept-Encoding: gzip
+Pragma: no-cache
+
+HTTP/1.1 401 Unauthorized
+Server: Apache-Coyote/1.1
+X-AREQUESTID: @TP9NI8x1168x274x0
+X-ASEN: SEN-L10664071
+WWW-Authenticate: Basic realm="Atlassian Bitbucket"
+Transfer-Encoding: chunked
+Date: Tue, 14 Nov 2017 19:28:20 GMT
+
+0
+
+GET /scm/test/two.git/info/refs?service=git-receive-pack HTTP/1.1
+Host: 127.0.0.1:7990
+Authorization: Basic YWRtaW46YWRtaW4=
+User-Agent: git/2.12.2
+Accept: */*
+Accept-Encoding: gzip
+Pragma: no-cache
+
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+X-AREQUESTID: @TP9NI8x1168x275x0
+X-ASEN: SEN-L10664071
+X-AUSERID: 1
+X-AUSERNAME: admin
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Expires: Fri, 01 Jan 1980 00:00:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache, max-age=0, must-revalidate
+Content-Type: application/x-git-receive-pack-advertisement
+Transfer-Encoding: chunked
+Date: Tue, 14 Nov 2017 19:28:20 GMT
+
+af
+001f# service=git-receive-pack
+000000887697b398d5e830f5f3485fde1afef8ab90351b12 refs/heads/master. report-status delete-refs side-band-64k quiet ofs-delta agent=git/2.1.4
+0000
+0
+
+POST /scm/test/two.git/git-receive-pack HTTP/1.1
+Host: 127.0.0.1:7990
+Authorization: Basic YWRtaW46YWRtaW4=
+User-Agent: git/2.12.2
+Accept-Encoding: gzip
+Content-Type: application/x-git-receive-pack-request
+Accept: application/x-git-receive-pack-result
+Content-Length: 450
+
+00957697b398d5e830f5f3485fde1afef8ab90351b12 2f6b652c4c717a3ce1889d90902feb8790318f32 refs/heads/master. report-status side-band-64k agent=git/2.12.20000PACK.........x...A
+. .E...}..1....*3:....3...#.o.<x_......	......,.P..!gW*M..|h..6...g.A.C....Z.GM..g............no?......N..Z.~..8.."D{..`N..U..3*../..?.... ...*.G...KmG..J.9.x...s.g.6.Hf...|ms>..;f...3............j........m.....[\.8...../x.{..!@8.43'.8.(..D.:.8%1%q#o......o........dn..,.....N.HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+X-AREQUESTID: @TP9NI8x1168x276x0
+X-ASEN: SEN-L10664071
+X-AUSERID: 1
+X-AUSERNAME: admin
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Expires: Fri, 01 Jan 1980 00:00:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache, max-age=0, must-revalidate
+Content-Type: application/x-git-receive-pack-result
+Transfer-Encoding: chunked
+Date: Tue, 14 Nov 2017 19:28:20 GMT
+
+a06
+0085.                            *%%%%%.                            
+                        %%%         %%%                        
+0085.                     ,%#               %%                      
+                    %%                   %%                    
+0085.                   %#                     %%                   
+                  %%                       %                   
+0085.                  %(                       %%                  
+                  %%%%%%%%%%%%%%%%%%%%%%%%%%%                  
+0085.                %#%*%#///////%# %%///////%%%%%%                
+               ,% %*%%******%#   %%******%(%%,%                
+0085.                 %%/ %%/**%%/%%%%%%%(**#%( %%#                 
+                  %%          %%%          %(                  
+0085.                   %                      .%                   
+                   *%        %%%%%       .%                    
+0085.                     %#                 %%                     
+                      .%%            .%%                       
+0085.                      .%%.%%,     %%%.%%/                      
+                %%%%%%##%.  #%%%%%.  .%((%%%%%%                
+0085.            %%#(((((((((%%,         #%%(((((((((#%%.           
+      %%%((((((((((((((((((%%%, .%%%((((((((((((((((((#%%*     
+0085.    %%(((((((((((((((((((((((((%(((((((((((((((((((((((((#%.   
+  ,%(((((((((((((((((((((((((((((((((((((((((((((((((((((((%#  
+0085.  %#((((((((((((((((((((((((((((((((((((((((((((((((((((((((%  
+  %%%%%%%%%%%%%(((((((((((((((((((((((((((((((((%%%%%%%%%%%%%  
+0085. %%            %####((((((###%%%%%%%%#(((((((((%            ,% 
+,%             %%%%%%#.               %%%((((((%*            %%
+0085.#%                                       %%%#                %%
+.%                             .%%%%%%%%%                    %#
+0085. %                         #%%%                              % 
+ %                     %%%%                                  %*
+0085./%************/#%%%%%%######%%*                        ..,*/(%%
+              %%######(((((((##################%%              
+0085.              %%######(((((((((((((((((((((((((%%              
+//////////////%%%%%%%%#########################%%/////////  ///
+0085.----------------------------------------------------
+'refs/heads/master' is read-only.
+Check your branch permissions configurati005e.on with the project administrator.
+----------------------------------------------------
+
+004a.000eunpack ok
+0033ng refs/heads/master pre-receive hook declined
+00000000
+0
+
+GET /scm/test/two.git/info/refs?service=git-receive-pack HTTP/1.1
+Host: 127.0.0.1:7990
+User-Agent: git/2.12.2
+Accept: */*
+Accept-Encoding: gzip
+Pragma: no-cache
+
+HTTP/1.1 401 Unauthorized
+Server: Apache-Coyote/1.1
+X-AREQUESTID: @TP9NI8x1168x273x0
+X-ASEN: SEN-L10664071
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+WWW-Authenticate: Basic realm="Atlassian Bitbucket"
+Transfer-Encoding: chunked
+Date: Tue, 14 Nov 2017 19:28:20 GMT
+
+0
+
+GET /scm/test/two.git/info/refs?service=git-receive-pack HTTP/1.1
+Host: 127.0.0.1:7990
+Authorization: Basic YWRtaW46
+User-Agent: git/2.12.2
+Accept: */*
+Accept-Encoding: gzip
+Pragma: no-cache
+
+HTTP/1.1 401 Unauthorized
+Server: Apache-Coyote/1.1
+X-AREQUESTID: @TP9NI8x1168x274x0
+X-ASEN: SEN-L10664071
+WWW-Authenticate: Basic realm="Atlassian Bitbucket"
+Transfer-Encoding: chunked
+Date: Tue, 14 Nov 2017 19:28:20 GMT
+
+0
+
+GET /scm/test/two.git/info/refs?service=git-receive-pack HTTP/1.1
+Host: 127.0.0.1:7990
+Authorization: Basic YWRtaW46YWRtaW4=
+User-Agent: git/2.12.2
+Accept: */*
+Accept-Encoding: gzip
+Pragma: no-cache
+
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+X-AREQUESTID: @TP9NI8x1168x275x0
+X-ASEN: SEN-L10664071
+X-AUSERID: 1
+X-AUSERNAME: admin
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Expires: Fri, 01 Jan 1980 00:00:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache, max-age=0, must-revalidate
+Content-Type: application/x-git-receive-pack-advertisement
+Transfer-Encoding: chunked
+Date: Tue, 14 Nov 2017 19:28:20 GMT
+
+af
+001f# service=git-receive-pack
+000000887697b398d5e830f5f3485fde1afef8ab90351b12 refs/heads/master. report-status delete-refs side-band-64k quiet ofs-delta agent=git/2.1.4
+0000
+0
+
+POST /scm/test/two.git/git-receive-pack HTTP/1.1
+Host: 127.0.0.1:7990
+Authorization: Basic YWRtaW46YWRtaW4=
+User-Agent: git/2.12.2
+Accept-Encoding: gzip
+Content-Type: application/x-git-receive-pack-request
+Accept: application/x-git-receive-pack-result
+Content-Length: 450
+
+00957697b398d5e830f5f3485fde1afef8ab90351b12 2f6b652c4c717a3ce1889d90902feb8790318f32 refs/heads/master. report-status side-band-64k agent=git/2.12.20000PACK.........
+x...A
+. .E...}..1....*3:....3...#.o.<x_......	......,.P..!gW*M..|h..6...g.A.C....Z.GM..g............no?......N..Z.~..8.."D{..`N..U..3*../..?.... ...*.G...KmG..J.9.x...s.g.6.Hf...|ms>..;f...3............j........m.....[\.8...../x.{..!@8.43'.8.(..D.:.8%1%q#o......o........dn..,.....N.HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+X-AREQUESTID: @TP9NI8x1168x276x0
+X-ASEN: SEN-L10664071
+X-AUSERID: 1
+X-AUSERNAME: admin
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Expires: Fri, 01 Jan 1980 00:00:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache, max-age=0, must-revalidate
+Content-Type: application/x-git-receive-pack-result
+Transfer-Encoding: chunked
+Date: Tue, 14 Nov 2017 19:28:20 GMT
+
+a06
+0085.                            *%%%%%.                            
+                        %%%         %%%                        
+0085.                     ,%#               %%                      
+                    %%                   %%                    
+0085.                   %#                     %%                   
+                  %%                       %                   
+0085.                  %(                       %%                  
+                  %%%%%%%%%%%%%%%%%%%%%%%%%%%                  
+0085.                %#%*%#///////%# %%///////%%%%%%                
+               ,% %*%%******%#   %%******%(%%,%                
+0085.                 %%/ %%/**%%/%%%%%%%(**#%( %%#                 
+                  %%          %%%          %(                  
+0085.                   %                      .%                   
+                   *%        %%%%%       .%                    
+0085.                     %#                 %%                     
+                      .%%            .%%                       
+0085.                      .%%.%%,     %%%.%%/                      
+                %%%%%%##%.  #%%%%%.  .%((%%%%%%                
+0085.            %%#(((((((((%%,         #%%(((((((((#%%.           
+      %%%((((((((((((((((((%%%, .%%%((((((((((((((((((#%%*     
+0085.    %%(((((((((((((((((((((((((%(((((((((((((((((((((((((#%.   
+  ,%(((((((((((((((((((((((((((((((((((((((((((((((((((((((%#  
+0085.  %#((((((((((((((((((((((((((((((((((((((((((((((((((((((((%  
+  %%%%%%%%%%%%%(((((((((((((((((((((((((((((((((%%%%%%%%%%%%%  
+0085. %%            %####((((((###%%%%%%%%#(((((((((%            ,% 
+,%             %%%%%%#.               %%%((((((%*            %%
+0085.#%                                       %%%#                %%
+.%                             .%%%%%%%%%                    %#
+0085. %                         #%%%                              % 
+ %                     %%%%                                  %*
+0085./%************/#%%%%%%######%%*                        ..,*/(%%
+              %%######(((((((##################%%              
+0085.              %%######(((((((((((((((((((((((((%%              
+//////////////%%%%%%%%#########################%%/////////  ///
+0085.----------------------------------------------------
+'refs/heads/master' is read-only.
+Check your branch permissions configurati005e.on with the project administrator.
+----------------------------------------------------
+
+004a.000eunpack ok
+0033ng refs/heads/master pre-receive hook declined
+00000000
+0
+
