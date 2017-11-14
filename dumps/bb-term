@@ -1,0 +1,48 @@
+$$$ git push lo
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 297 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote:                             *%%%%%.
+remote:                         %%%         %%%
+remote:                      ,%#               %%
+remote:                     %%                   %%
+remote:                    %#                     %%
+remote:                   %%                       %
+remote:                   %(                       %%
+remote:                   %%%%%%%%%%%%%%%%%%%%%%%%%%%
+remote:                 %#%*%#///////%# %%///////%%%%%%
+remote:                ,% %*%%******%#   %%******%(%%,%
+remote:                  %%/ %%/**%%/%%%%%%%(**#%( %%#
+remote:                   %%          %%%          %(
+remote:                    %                      .%
+remote:                    *%        %%%%%       .%
+remote:                      %#                 %%
+remote:                       .%%            .%%
+remote:                       .%%.%%,     %%%.%%/
+remote:                 %%%%%%##%.  #%%%%%.  .%((%%%%%%
+remote:             %%#(((((((((%%,         #%%(((((((((#%%.
+remote:       %%%((((((((((((((((((%%%, .%%%((((((((((((((((((#%%*
+remote:     %%(((((((((((((((((((((((((%(((((((((((((((((((((((((#%.
+remote:   ,%(((((((((((((((((((((((((((((((((((((((((((((((((((((((%#
+remote:   %#((((((((((((((((((((((((((((((((((((((((((((((((((((((((%
+remote:   %%%%%%%%%%%%%(((((((((((((((((((((((((((((((((%%%%%%%%%%%%%
+remote:  %%            %####((((((###%%%%%%%%#(((((((((%            ,%
+remote: ,%             %%%%%%#.               %%%((((((%*            %%
+remote: #%                                       %%%#                %%
+remote: .%                             .%%%%%%%%%                    %#
+remote:  %                         #%%%                              %
+remote:  %                     %%%%                                  %*
+remote: /%************/#%%%%%%######%%*                        ..,*/(%%
+remote:               %%######(((((((##################%%
+remote:               %%######(((((((((((((((((((((((((%%
+remote: //////////////%%%%%%%%#########################%%/////////  ///
+remote: ----------------------------------------------------
+remote: 'refs/heads/master' is read-only.
+remote: Check your branch permissions configuration with the project administrator.
+remote: ----------------------------------------------------
+remote:
+To http://127.0.0.1:7990/scm/test/two.git
+ ! [remote rejected]       master -> master (pre-receive hook declined)
+error: failed to push some refs to 'http://admin@127.0.0.1:7990/scm/test/two.git'
